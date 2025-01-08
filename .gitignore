@@ -1,0 +1,34 @@
+# Di ~/dotfiles/.gitignore
+
+# Ignore cache directories
+
+.config/**/cache/
+.config/**/\*.cache
+.config/\*\*/caches/
+
+# Ignore logs
+
+.config/\*_/_.log
+
+# Ignore data files
+
+.config/**/data/
+.config/**/databases/
+
+# Ignore history files
+
+.config/**/history
+**/history.sqlite
+
+# Ignore state files
+
+.config/**/state/
+.config/**/\*.state
+
+# Ignore auth tokens and sensitive data
+
+.config/**/_token_
+.config/**/_auth_
+.config/**/_key_
+.config/**/_secret_
+
