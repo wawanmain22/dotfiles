@@ -75,7 +75,3 @@ git pull
 ## License
 
 Feel free to use and modify these configurations as you like.
-
-```
-
-```
